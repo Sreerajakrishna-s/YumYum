@@ -1,0 +1,41 @@
+.container{
+    position: relative;
+    background-image: url('https://wallpapercave.com/wp/wp1874155.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 87.6vh;
+    }
+.content {
+align-items: flex-start;
+/* margin-left: 10%; */
+padding: 2%;
+width: 50%;
+}
+.content h1{
+   color: whitesmoke;
+   
+   font-family: 'Dancing Script', cursive;
+   font-weight: 700;
+   margin-left: 2%;
+   margin-top: 25%;
+}
+.content p{
+color: aliceblue;
+
+   
+   font-family: 'Dancing Script', cursive;
+   font-weight: 300;
+   margin-left: 2%;
+   /* margin-top: 25%; */
+}
+
+.content button{
+    margin: 10px 0px 0px;
+    padding: 10px 45px;
+    color: rgb(14, 13, 13);
+    align-items: center;
+    position: relative;
+    margin-left: 2%;
+    border-radius: 25px;
+
+}

@@ -1,0 +1,17 @@
+<br>
+<ul>
+  <li *ngFor="let food of foods">
+      <a href="{{food.image}}" class="card__link">
+      <img [src]="food.image" [alt]="food.title" />
+      <div class="content">
+        <div class="name">
+          {{food.title}}
+        </div>
+        <div class="were">
+          {{food.description}}
+          {{food.price}}
+          
+        </div>
+      </div></a>  
+  </li>
+</ul>

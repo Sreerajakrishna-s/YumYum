@@ -13,6 +13,8 @@ import { AboutComponent } from './about/about.component';
 import { MenuComponent } from './menu/menu.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
+import { ChatbotComponent } from './chatbot/chatbot.component';
+
 const routes: Routes = [
   {
     path:'', component:HomeComponent,pathMatch:'full'
@@ -43,7 +45,8 @@ const routes: Routes = [
     SearchComponent,
     AboutComponent,
     MenuComponent,
-    ContactComponent
+    ContactComponent,
+    ChatbotComponent
   ],
   imports: [
     BrowserModule,
